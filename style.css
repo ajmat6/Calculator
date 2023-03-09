@@ -1,0 +1,62 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+/* Buttons */
+
+.button{
+    padding: 10px 10px;
+    margin: 0px 1px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Tilt Warp', cursive;
+    width: 40px;
+}
+
+.button:hover{
+    background-color: rgb(126, 184, 184);
+    box-shadow: 1px 1px black;
+    /* color:gold; */
+}
+
+.container{
+    margin: 10px 550px 10px 550px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid black;
+    box-shadow: 10px 10px 10px 10px black;
+    border-radius: 8px;
+}
+
+.row{
+    /* background-color: violet; */
+    width: 100%;
+    margin: 5px auto;
+}
+
+.row input{
+    margin: 1px;
+    padding: 17px;
+    width: 140px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+/* Heading */
+h1{
+    margin: 60px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+/* Utility Classes */
+
+.center{
+    text-align: center;
+}
